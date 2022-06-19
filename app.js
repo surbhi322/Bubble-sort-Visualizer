@@ -7,7 +7,7 @@ function myFun(){
     for(let i = 0 ; i < myArray.length ; i++){
         let piller = document.createElement('div')
         piller.setAttribute('id' , "num"+ i);
-        piller.innerHTML = 10 - i;
+        piller.innerHTML = myArray[i];
         grid.append(piller);
         pillers.push(piller);
     }
